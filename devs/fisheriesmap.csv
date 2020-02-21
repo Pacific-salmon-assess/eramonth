@@ -1,0 +1,196 @@
+CFILENO,CFILENAME,CFILENAME_long,ERANO,ERANAME,Country,NewNum,Gear,NewName,Management,nameCMZ
+1,AK WIN1 S/O T,Alaska Early Winter South Outside Troll,1,AK W/S T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+2,AK WIN1 N/O T,Alaska Early Winter North Outside Troll,1,AK W/S T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+3,AK WIN1 S/I T,Alaska Early Winter South Inside Troll,1,AK W/S T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+4,AK WIN1 N/I T,Alaska Early Winter North Inside Troll,1,AK W/S T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+5,AK WIN2 S/O T,Alaska Late Winter South Outside Troll,1,AK W/S T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+6,AK WIN2 N/O T,Alaska Late Winter North Outside Troll,1,AK W/S T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+7,AK WIN2 S/I T,Alaska Late Winter South Inside Troll,1,AK W/S T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+8,AK WIN2 N/I T,Alaska Late Winter North Inside Troll,1,AK W/S T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+9,AK SPR S/O T,Alaska Spring South Outside Troll,1,AK W/S T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+10,AK SPR N/O T,Alaska Spring North Outside Troll,1,AK W/S T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+11,AK SPR S/I T,Alaska Spring South Inside Troll,1,AK W/S T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+12,AK SPR N/I T,Alaska Spring North Inside Troll,1,AK W/S T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+13,AK JUNE S/O T,Alaska June South Outside Troll,2,AK JNO T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+14,AK JUNE N/O T,Alaska June North Outside Troll,2,AK JNO T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+15,AK JUNE S/I T,Alaska June South Inside Troll,3,AK JNI T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+16,AK JUNE N/I T,Alaska June North Inside Troll,3,AK JNI T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+17,AK JULY S/O T,Alaska July South Outside Troll,4,AK JLO T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+18,AK JULY N/O T,Alaska July North Outside Troll,4,AK JLO T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+19,AK JULY S/I T,Alaska July South Inside Troll,5,AK JLI T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+20,AK JULY N/I T,Alaska July North Inside Troll,5,AK JLI T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+21,AK FALL S/O T,Alaska Fall South Outside Troll,6,AK FALL T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+22,AK FALL N/O T,Alaska Fall North Outside Troll,6,AK FALL T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+23,AK FALL S/I T,Alaska Fall South Inside Troll,6,AK FALL T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+24,AK FALL N/I T,Alaska Fall North Inside Troll,6,AK FALL T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+25,AK NEAR TER T,Alaska Near Terminal Troll,7,TAK TERM T,US,999,T,SEAK Troll,AABM,Terminal.Fishery_SEAK_T
+26,AK TERMIN T,Alaska Terminal Troll,7,TAK TERM T,US,999,T,SEAK Troll,AABM,Terminal.Fishery_SEAK_T
+27,NBC FALL T,North Fall Troll,8,NORTH T,CA,1,T,NBC Troll,AABM,AABM.Fishery_NBC_T
+28,NBC WIN T,North Winter Troll,8,NORTH T,CA,1,T,NBC Troll,AABM,AABM.Fishery_NBC_T
+29,NBC SPR T,North Spring Troll,8,NORTH T,CA,1,T,NBC Troll,AABM,AABM.Fishery_NBC_T
+30,NBC SUM T,North Summer Troll,8,NORTH T,CA,1,T,NBC Troll,AABM,AABM.Fishery_NBC_T
+31,CENTR T,Central Troll,9,CENTRL T,CA,2,T,Central Troll,ISBM,ISBM.Fishery_NBC...CBC_T
+32,NWVI FALL T,Northwest Vancouver Island Fall Troll,10,WCVI F/W T,CA,3,T,WCVI Troll,AABM,AABM.Fishery_WCVI_T
+33,NWVI WIN T,Northwest Vancouver Island Winter Troll,10,WCVI F/W T,CA,3,T,WCVI Troll,AABM,AABM.Fishery_WCVI_T
+34,NWVI SPR T,Northwest Vancouver Island Spring Troll,11,WCVI SPR T,CA,3,T,WCVI Troll,AABM,AABM.Fishery_WCVI_T
+35,NWVI SUM T,Northwest Vancouver Island Summer Troll,12,WCVI SUM T,CA,3,T,WCVI Troll,AABM,AABM.Fishery_WCVI_T
+36,SWVI FALL T,Southwest Vancouver Island Fall Troll,10,WCVI F/W T,CA,3,T,WCVI Troll,AABM,AABM.Fishery_WCVI_T
+37,SWVI WIN T,Southwest Vancouver Island Winter Troll,10,WCVI F/W T,CA,3,T,WCVI Troll,AABM,AABM.Fishery_WCVI_T
+38,SWVI SPR T,Southwest Vancouver Island Spring Troll,11,WCVI SPR T,CA,3,T,WCVI Troll,AABM,AABM.Fishery_WCVI_T
+39,SWVI SUM T,Southwest Vancouver Island Summer Troll,12,WCVI SUM T,CA,3,T,WCVI Troll,AABM,AABM.Fishery_WCVI_T
+40,GEO ST T,Georgia Straight Troll,16,GEO ST T,CA,5,T,Georgia Straight Troll,ISBM,ISBM.Fishery_Southern.BC_T
+41,WA JDF T,Washington Juan De Fuca Troll,13,N FALCON T,US,999,T,WA Troll,ISBM,ISBM.Fishery_N.Falcon_T
+42,WA 4 T,Washington Area 4 (Neah Bay) Non-tribal Troll,13,N FALCON T,US,999,T,WA Troll,ISBM,ISBM.Fishery_N.Falcon_T
+43,WA 4 T T,Washington Area 4 (Neah Bay) Tribal Troll,13,N FALCON T,US,999,T,WA Troll,ISBM,ISBM.Fishery_N.Falcon_T
+44,WA 3 T,Washington Area 3 (La Push) Non-tribal Troll,13,N FALCON T,US,999,T,WA Troll,ISBM,ISBM.Fishery_N.Falcon_T
+45,WA 3 T T,Washington Area 3 (La Push) Tribal Troll,13,N FALCON T,US,999,T,WA Troll,ISBM,ISBM.Fishery_N.Falcon_T
+46,WA 2 T,Washington Area 2 (Westport) Non-tribal Troll,13,N FALCON T,US,999,T,WA Troll,ISBM,ISBM.Fishery_N.Falcon_T
+47,WA 2 T T,Washington Area 2 (Westport) Tribal Troll,13,N FALCON T,US,999,T,WA Troll,ISBM,ISBM.Fishery_N.Falcon_T
+48,WA 1 T,Washington Area 1 Troll,13,N FALCON T,US,999,T,WA Troll,ISBM,ISBM.Fishery_N.Falcon_T
+49,OR3 T,Oregon Area 3 Troll,14,S FALCON T,US,999,T,OR Troll,ISBM,ISBM.Fishery_S.Falcon_T
+50,OR4 T,Oregon Area 4 Troll,14,S FALCON T,US,999,T,OR Troll,ISBM,ISBM.Fishery_S.Falcon_T
+51,OR5 T,Oregon Area 5 Troll,14,S FALCON T,US,999,T,OR Troll,ISBM,ISBM.Fishery_S.Falcon_T
+52,OR6 T,Oregon Area 6 Troll,14,S FALCON T,US,999,T,OR Troll,ISBM,ISBM.Fishery_S.Falcon_T
+53,TORC T,Oregon Coast Terminal Troll,15,TOR TERM T,US,999,T,OR Troll,ISBM,Terminal.Fishery_Southern.US_T
+54,CAL T,California Troll,14,S FALCON T,US,999,T,CAL Troll,ISBM,ISBM.Fishery_S.Falcon_T
+55,AK 101&102 GN,Alaska District 101 And 102 Gillnet,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+56,AK 106&108 GN,Alaska District 106 And 108 Gillnet,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+57,AK 111 GN,Alaska District 111 Gillnet,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+58,AK 115 GN,Alaska District 115 Gillnet,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+59,AK SEOT GN,Alaska Southeast Other Gillnet,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+60,TTAKU GN,Taku River Terminal Gillnet,33,TBR TERM N,US,999,N,SEAK Net,AABM,Terminal.Fishery_SEAK_N
+61,TSTIKINE GN,Stikine River Terminal Gillnet,33,TBR TERM N,US,999,N,SEAK Net,AABM,Terminal.Fishery_SEAK_N
+62,TSEAK GN,SE Alaska Terminal Gillnet,32,TAK TERM N,US,999,N,SEAK Net,AABM,Terminal.Fishery_SEAK_N
+63,AK SE SN,Alaska Southeast Set Gillnet,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+64,AK SASI SN,Alaska District 101 & 102 Seine,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+65,AK SASO SN,Alaska District 103 & 104 Seine,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+66,AK SACI SN,Alaska District 105 106 & 107 Seine,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+67,AK SACO SN,Alaska District 109 & 110 Seine,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+68,AK 111 SN,Alaska District 111 Seine,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+69,AK 112 SN,Alaska District 112 Seine,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+70,AK 113 SN,Alaska District 113 Seine,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+71,AK 114 SN,Alaska District 114 Seine,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+72,TSEAK SN,SE Alaska Terminal Seine,32,TAK TERM N,US,999,N,SEAK Net,AABM,Terminal.Fishery_SEAK_N
+73,AK TRAP,Alaska Trap,17,ALASKA N,US,999,N,SEAK Net,AABM,AABM.Fishery_SEAK_N
+74,NORTH N,North Net,18,NORTH N,CA,6,N,North Net,ISBM,ISBM.Fishery_NBC...CBC_N
+75,TNORTH N,North Terminal Net,19,TNBC TERM N,CA,6,N,North Net,ISBM,ISBM.Fishery_NBC...CBC_N
+76,TNORTH FN,North Freshwater Net,34,TNORTH FN,CA,7,N,North Freshwater Net,ISBM,Terminal.Fishery_Canada_N
+77,CENTR N,Central Net,20,CENTRL N,CA,8,N,Central Net,ISBM,ISBM.Fishery_NBC...CBC_N
+78,TCENTRAL N,Central Terminal Net,21,TCBC TERM N,CA,8,N,Central Net,ISBM,ISBM.Fishery_NBC...CBC_N
+79,TCENTRAL FN,Central Freshwater Net,35,TCENTRAL FN,CA,9,N,Central Freshwater Net,ISBM,Terminal.Fishery_Canada_N
+80,JOHN ST N,Johnstone Strait Net,40,JNST N,CA,10,N,Johnstone Strait Net,ISBM,ISBM.Fishery_Southern.BC_N
+81,GEO ST N,Georgia Strait Net,24,GEO ST N,CA,11,N,Georgia Strait Net,ISBM,ISBM.Fishery_Southern.BC_N
+82,TGEO ST FN,Georgia Strait Freshwater Net,36,TGEO ST FN,CA,12,N,Georgia Strait Freshwater Net,ISBM,Terminal.Fishery_Canada_N
+83,NWVI N,Northwest WCVI Net,23,WCVI N,CA,13,N,Northwest WCVI Net,ISBM,ISBM.Fishery_Southern.BC_N
+84,TNWVI N,Northwest WCVI Terminal Net,22,TWCVI TERM N,CA,13,N,Northwest WCVI Net,ISBM,Terminal.Fishery_Canada_N
+85,SWVI N,Southwest WCVI Net,23,WCVI N,CA,14,N,Southwest WCVI Net,ISBM,ISBM.Fishery_Southern.BC_N
+86,TSWVI N,Southwest WCVI Terminal Net,22,TWCVI TERM N,CA,14,N,Southwest WCVI Net,ISBM,Terminal.Fishery_Canada_N
+87,FRASER N,Fraser Net,42,FRASER N,CA,15,N,Fraser Net,ISBM,ISBM.Fishery_Southern.BC_N
+88,TFRASER N,Fraser Terminal Net,43,TFRASER TERM N,CA,16,N,Fraser Net,ISBM,ISBM.Fishery_Southern.BC_N
+89,TLFRASER FN,Lower Fraser Freshwater Net,37,TFRAS FN,CA,17,N,Lower Fraser Freshwater Net,ISBM,Terminal.Fishery_Canada_N
+90,TUFRASER FN,Upper Fraser Freshwater Net,37,TFRAS FN,CA,18,N,Upper Fraser Freshwater Net,ISBM,Terminal.Fishery_Canada_N
+91,BC JDF N,Canadian Juan De Fuca Net,41,BC JF N,CA,19,N,Canadian Juan De Fuca Net,ISBM,ISBM.Fishery_Southern.BC_N
+92,WCVI ISBM S,WCVI ISBM Sport,51,WCVI ISBM S,CA,32,S,WCVI ISBM Sport,ISBM,ISBM.Fishery_Southern.BC_S
+93,WA JDF N,Washington Juan De Fuca Net,27,US JF N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+94,TWA JDF FN,Washington Juan De Fuca Freshwater Net,38,TPS FN,US,999,N,PGSD Net,ISBM,Terminal.Fishery_Southern.US_N
+95,PS SJ N,San Juans Net,25,PGSDN N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+96,TPS SJ N,San Juans Terminal Net,26,TPGSDN TERM N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+97,PG SD 7 N,Puget Sound Area 7 Net,25,PGSDN N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+98,PG SD 7A N,Puget Sound Area 7a Net,25,PGSDN N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+99,PS NK/SM N,Nooksack/Samish Net,25,PGSDN N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+100,TPS NK/SM N,Nooksack/Samish Terminal Net,26,TPGSDN TERM N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+101,TNPS FN,North Puget Sound Freshwater Net,38,TPS FN,US,999,N,PGSD Net,ISBM,Terminal.Fishery_Southern.US_N
+102,PS SKG N,Skagit Net,28,PGSDO N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+103,TPS SKG N,Skagit Terminal Net,29,TPGSDO TERM N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+104,TPS SKG FN,Skagit Freshwater Net,38,TPS FN,US,999,N,PGSD Net,ISBM,Terminal.Fishery_Southern.US_N
+105,PS 6B-9 N,Puget Sound Area 6b-9 Net,28,PGSDO N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+106,TPS 6B-9 N,Puget Sound Area 6b-9 Terminal Net,29,TPGSDO TERM N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+107,PS ST/SN N,Stillaguamish/Snohomish Net,28,PGSDO N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+108,TPS ST/SN N,Stillaguamish/Snohomish Terminal Net,29,TPGSDO TERM N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+109,PS 10-11-13 N,Puget Sound Area 10-11-13 Net,28,PGSDO N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+110,TPS 10-11-13 N,Puget Sound Area 10-11-13 Terminal Net,29,TPGSDO TERM N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+111,TPS 10-11-13 FN,Puget Sound Area 10-11-13 Freshwater Net,38,TPS FN,US,999,N,PGSD Net,ISBM,Terminal.Fishery_Southern.US_N
+112,PS HC N,Hood Canal (Area 12) Net,28,PGSDO N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+113,TPS HC N,Hood Canal (Area 12) Terminal Net,29,TPGSDO TERM N,US,999,N,PGSD Net,ISBM,ISBM.Fishery_Puget.Sd_N
+114,TPS HC FN,Hood Canal (Area 12) Freshwater Net,38,TPS FN,US,999,N,PGSD Net,ISBM,Terminal.Fishery_Southern.US_N
+115,WAC N,Washington Coast Net,30,WA CST N,US,999,N,WA Net,ISBM,ISBM.Fishery_WAC_N
+116,TWA NCST FN,Washington North Coast Freshwater Net,39,TWAC FN,US,999,N,WA Net,ISBM,Terminal.Fishery_Southern.US_N
+117,WA GH N,Grays Harbor Bay Net,30,WA CST N,US,999,N,WA Net,ISBM,ISBM.Fishery_WAC_N
+118,TWA GH FN,Grays Harbor Freshwater Net,39,TWAC FN,US,999,N,WA Net,ISBM,Terminal.Fishery_Southern.US_N
+119,WA WB N,Willapa Bay Net,30,WA CST N,US,999,N,WA Net,ISBM,ISBM.Fishery_WAC_N
+120,TCOL R1-5 GN,Columbia River Z1-5 Gillnet,31,TCOL R N,US,999,N,COLR Net,ISBM,Terminal.Fishery_Southern.US_N
+121,TCOL R1-5 SN,Columbia River Z1-5 Seine,31,TCOL R N,US,999,N,COLR Net,ISBM,Terminal.Fishery_Southern.US_N
+122,TCOL SA N,Columbia Select Area Net,31,TCOL R N,US,999,N,COLR Net,ISBM,Terminal.Fishery_Southern.US_N
+123,TCOL R6 N,Columbia River Area 6 Terminal Net,31,TCOL R N,US,999,N,COLR Net,ISBM,Terminal.Fishery_Southern.US_N
+124,AK SE S,Alaska Southeast Sport,44,ALASKA S,US,999,S,SEAK Sport,AABM,AABM.Fishery_SEAK_S
+125,TTAKU S,Taku River Terminal Sport,69,TBR TERM S,US,999,S,SEAK Term Sport,AABM,Terminal.Fishery_SEAK_S
+126,TSTIKINE S,Stikine River Terminal Sport,69,TBR TERM S,US,999,S,SEAK Term Sport,AABM,Terminal.Fishery_SEAK_S
+127,TAK SE S,Alaska Southeast Terminal Sport,68,TAK TERM S,US,999,S,SEAK Sport,AABM,Terminal.Fishery_SEAK_S
+128,NORTH AABM S,North AABM Sport (QCI),47,NBC AABM S,CA,20,S,NBC AABM Sport,AABM,AABM.Fishery_NBC_S
+129,NORTH ISBM S,North ISBM Sport,48,NBC ISBM S,CA,21,S,NBC ISBM Sport,ISBM,ISBM.Fishery_NBC...CBC_S
+130,TNORTH S,North Terminal Sport,49,TNBC TERM S,CA,22,S,NBC ISBM Sport,ISBM,ISBM.Fishery_NBC...CBC_S
+131,TNORTH FS,North Freshwater Sport,70,TNORTH FS,CA,23,S,North Freshwater Sport,ISBM,Terminal.Fishery_Canada_S
+132,CENTRAL S,Central Sport,45,CBC S,CA,24,S,Central Sport,ISBM,ISBM.Fishery_NBC...CBC_S
+133,TCENTRAL S,Central Terminal Sport,46,TCBC TERM S,CA,24,S,Central Sport,ISBM,ISBM.Fishery_NBC...CBC_S
+134,TCENTRAL FS,Central Freshwater Sport,71,TCENTRAL FS,CA,25,S,Central Freshwater Sport,ISBM,Terminal.Fishery_Canada_S
+135,JOHN ST S,Johnstone Strait Sport,61,JNST S,CA,26,S,Johnstone Strait Sport,ISBM,ISBM.Fishery_Southern.BC_S
+136,NGS S,North Georgia Strait Sport,63,GEO ST S,CA,27,S,North Georgia Strait Sport,ISBM,ISBM.Fishery_Southern.BC_S
+137,TNGS S,North Georgia Strait Terminal Sport,64,TGEO ST TERM S,CA,27,S,North Georgia Strait Sport,ISBM,ISBM.Fishery_Southern.BC_S
+138,TNGS FS,North Georgia Strait Freshwater Sport,74,TGS FS,CA,28,S,North Georgia Strait Freshwater Sport,ISBM,Terminal.Fishery_Canada_S
+139,SGS S,South Georgia Strait Sport,63,GEO ST S,CA,29,S,South Georgia Strait Sport,ISBM,ISBM.Fishery_Southern.BC_S
+140,TSGS S,South Georgia Strait Terminal Sport,64,TGEO ST TERM S,CA,29,S,South Georgia Strait Sport,ISBM,ISBM.Fishery_Southern.BC_S
+141,TSGS FS,South Georgia Strait Freshwater Sport,74,TGS FS,CA,30,S,South Georgia Strait Freshwater Sport,ISBM,Terminal.Fishery_Canada_S
+142,WCVI AABM S,WCVI AABM Sport,50,WCVI AABM S,CA,31,S,WCVI AABM Sport,AABM,AABM.Fishery_WCVI_S
+143,TWCVI S,WCVI Terminal Sport,52,TWCVI TERM S,CA,33,S,WCVI Terminal Sport,ISBM,Terminal.Fishery_Canada_S
+144,TWCVI FS,WCVI Freshwater Sport,72,TWCVI FS,CA,34,S,WCVI Freshwater Sport,ISBM,Terminal.Fishery_Canada_S
+145,TFRASER FS,Fraser Freshwater Sport,73,TFRASER FS,CA,35,S,Fraser Freshwater Sport,ISBM,Terminal.Fishery_Canada_S
+146,BC JDF S,Canadian Juan De Fuca Sport,65,BC JF S,CA,36,S,Canadian Juan De Fuca Sport,ISBM,ISBM.Fishery_Southern.BC_S
+147,TBC JDF S,Canadian Juan De Fuca Terminal Sport,66,TBC JF TERM S,CA,36,S,Canadian Juan De Fuca Sport,ISBM,ISBM.Fishery_Southern.BC_S
+148,TJOHN ST S,Johnstone Strait Terminal Sport,62,TJNST TERM S,CA,26,S,Johnstone Strait Sport,ISBM,ISBM.Fishery_Southern.BC_S
+149,TWA JDF FS,Washington Juan De Fuca Freshwater Sport,75,TPS FS,US,999,S,WA Sport,ISBM,Terminal.Fishery_Southern.US_S
+150,PS 5 S,Puget Sound Area 5 Sport,57,PGSDN S,US,999,S,PGSD Sport,ISBM,ISBM.Fishery_Puget.Sd_S
+151,PS 6 S,Puget Sound Area 6 Sport,57,PGSDN S,US,999,S,PGSD Sport,ISBM,ISBM.Fishery_Puget.Sd_S
+152,PS 7 S,Puget Sound Area 7 Sport,57,PGSDN S,US,999,S,PGSD Sport,ISBM,ISBM.Fishery_Puget.Sd_S
+153,TNPS S,North Puget Sound (Area 5-7) Terminal Sport,58,TPGSDN TERM S,US,999,S,PGSD Sport,ISBM,ISBM.Fishery_Puget.Sd_S
+154,TNPS FS,North Puget Sound (Area 5-7) Freshwater Sport,75,TPS FS,US,999,S,PGSD Sport,ISBM,Terminal.Fishery_Southern.US_S
+155,PS 8-1 S,Puget Sound Area 8-1 Sport,59,PGSDO S,US,999,S,PGSD Sport,ISBM,ISBM.Fishery_Puget.Sd_S
+156,PS 8-2 S,Puget Sound Area 8-2 Sport,59,PGSDO S,US,999,S,PGSD Sport,ISBM,ISBM.Fishery_Puget.Sd_S
+157,PS 9 S,Puget Sound Area 9 Sport,59,PGSDO S,US,999,S,PGSD Sport,ISBM,ISBM.Fishery_Puget.Sd_S
+158,TPS 8-9 FS,Puget Sound Area 8-9 Terminal Sport,75,TPS FS,US,999,S,PGSD Sport,ISBM,Terminal.Fishery_Southern.US_S
+159,PS 10 S,Puget Sound Area 10 Sport,59,PGSDO S,US,999,S,PGSD Sport,ISBM,ISBM.Fishery_Puget.Sd_S
+160,PS 11 S,Puget Sound Area 11 Sport,59,PGSDO S,US,999,S,PGSD Sport,ISBM,ISBM.Fishery_Puget.Sd_S
+161,PS 12 S,Puget Sound Area 12 Sport,59,PGSDO S,US,999,S,PGSD Sport,ISBM,ISBM.Fishery_Puget.Sd_S
+162,TPS 12 S,Puget Sound Area 12 Terminal Sport,60,TPGSDO TERM S,US,999,S,PGSD Sport,ISBM,ISBM.Fishery_Puget.Sd_S
+163,TPS 12 FS,Puget Sound Area 12 Freshwater Sport,75,TPS FS,US,999,S,PGSD Sport,ISBM,Terminal.Fishery_Southern.US_S
+164,PS 13 S,Puget Sound Area 13 Sport,59,PGSDO S,US,999,S,PGSD Sport,ISBM,ISBM.Fishery_Puget.Sd_S
+165,TSPS S,South Puget Sound (10-11-13) Terminal Sport,60,TPGSDO TERM S,US,999,S,PGSD Sport,ISBM,ISBM.Fishery_Puget.Sd_S
+166,TSPS FS,South Puget Sound (10-11-13) Freshwater Sport,75,TPS FS,US,999,S,PGSD Sport,ISBM,Terminal.Fishery_Southern.US_S
+167,WAOCN4 S,Washington Area 4 Ocean Sport,53,N FALCON S,US,999,S,WA Sport,ISBM,ISBM.Fishery_N.Falcon_S
+168,WAOCN3 S,Washington Area 3 Ocean Sport,53,N FALCON S,US,999,S,WA Sport,ISBM,ISBM.Fishery_N.Falcon_S
+169,WAOCN2 S,Washington Area 2 Ocean Sport,53,N FALCON S,US,999,S,WA Sport,ISBM,ISBM.Fishery_N.Falcon_S
+170,WAOCN1 S,Washington Area 1 Ocean Sport,53,N FALCON S,US,999,S,WA Sport,ISBM,ISBM.Fishery_N.Falcon_S
+171,TWAC S,Washington Coast Terminal Sport,54,TNF TERM S,US,999,S,WA Sport,ISBM,ISBM.Fishery_N.Falcon_S
+172,BUOY 10 S,Buoy 10 Sport,53,N FALCON S,US,999,S,COLR Sport,ISBM,ISBM.Fishery_N.Falcon_S
+173,TBUOY 10 S,Terminal Buoy 10 Sport,67,TCOL R S,US,999,S,COLR Sport,ISBM,Terminal.Fishery_Southern.US_S
+174,TCOL R S,Terminal Above Buoy 10 Sport,67,TCOL R S,US,999,S,CR Sport,ISBM,Terminal.Fishery_Southern.US_S
+175,OROCN3 S,Oregon Area 3 Ocean Sport,55,S FALCON S,US,999,S,OR Sport,ISBM,ISBM.Fishery_S.Falcon_S
+176,OROCN4 S,Oregon Area 4 Ocean Sport,55,S FALCON S,US,999,S,OR Sport,ISBM,ISBM.Fishery_S.Falcon_S
+177,OROCN5 S,Oregon Area 5 Ocean Sport,55,S FALCON S,US,999,S,OR Sport,ISBM,ISBM.Fishery_S.Falcon_S
+178,OROCN6 S,Oregon Area 6 Ocean Sport,55,S FALCON S,US,999,S,OR Sport,ISBM,ISBM.Fishery_S.Falcon_S
+179,TORC S,Oregon Coast Terminal Sport,56,TSF TERM S,US,999,S,OR Sport,ISBM,ISBM.Fishery_S.Falcon_S
+180,TORC FS,Oregon Coast Freshwater Sport,76,TSF TERM FS,US,999,S,OR Sport,ISBM,Terminal.Fishery_Southern.US_S
+181,CAL OCN S,California Ocean Sport,55,S FALCON S,US,999,S,CAL Sport,ISBM,ISBM.Fishery_S.Falcon_S
+182,COST REC,Cost Recovery,80,ESCAPEMENT,US,999,O,SEAK Other,Other,Esc.
+183,PERS USE,Personal Use,80,ESCAPEMENT,US,999,O,SEAK Other,Other,Esc.
+184,SUB,Subsistence,80,ESCAPEMENT,US,999,O,SEAK Other,Other,Esc.
+185,TBC TAK FN,BC Taku Freshwater Net,77,TCAN TBR N,CA,37,N,TBR N/S,Other,Terminal.Fishery_Canada_N
+186,TBC TAK FS,BC Taku Freshwater Sport,77,TCAN TBR N,CA,37,S,TBR N/S,Other,Terminal.Fishery_Canada_N
+187,TBC STI FN,"BC Stikine Freshwater Net",77,TCAN TBR N,CA,37,N,TBR N/S,Other,Terminal.Fishery_Canada_N
+188,TBC STI FS,"BC Stikine Freshwater Sport",77,TCAN TBR N,CA,37,S,TBR N/S,Other,Terminal.Fishery_Canada_N
+189,AK Summer CNR MSF S/O T,Alaska Summer CNR MSF North Inside Troll,6,AK FALL T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+190,AK Summer CNR MSF N/O T,Alaska Summer CNR MSF North Outside Troll,6,AK FALL T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+191,AK Summer CNR MSF S/I T,Alaska Summer CNR MSF South Inside Troll,6,AK FALL T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+192,AK Summer CNR MSF N/I T,Alaska Summer CNR MSF North Outside Troll,6,AK FALL T,US,999,T,SEAK Troll,AABM,AABM.Fishery_SEAK_T
+193,CA ESC STRAY,Canadian Escapement Stray,78,XCA ESC STRAY,CA,38,Y,CA EscStray,Escapement,Escapement_...._Stray
+194,US ESC STRAY,US Escapement Stray,79,XUS ESC STRAY,US,999,Y,US EscStray,Escapement,Escapement_...._Stray
+195,ESCAPE,Escapement,80,ESCAPEMENT,Any,1000,E,Esc,Escapemet,Esc.
