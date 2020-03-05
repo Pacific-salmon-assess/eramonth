@@ -31,9 +31,11 @@ library(deratools)
 fmap<-read.csv("fisheriesmap.csv")
 #devtools::use_data(x, mtcars)
 
-
+#I will provide the casdf for external users. 
 pathdb <- "C:/Users/worc/Documents/CTC/ream/devs/testtxt/CASClient_2019_BE.mdb"
 casdf <- readcasdbsplit(pathdb)
+
+
 
 pathcmz <- "C:/Users/worc/Documents/CTC/ERA/2019/mortality_distribution_tables/2019ERA Mortality Distrib Tables V1_5age/catchDistribution_CMZ.csv"
 cmz <- readcmzsplit(pathcmz)
@@ -59,5 +61,9 @@ yearlycwt <- aggregate(dbstk$Total_Expanded, list(Stock=dbstk$Stock,Stock_Name= 
 
 monthlycwt$yeartotal <- yearlycwt$x[match(monthlycwt$Recovery_Year,yearlycwt$Recovery_Year )]
 
+#these proportions need to be multiplied by the annual mortality. 
 monthlycwt$monprop <- monthlycwt$x/monthlycwt$yeartotal 
+
+
+
 
