@@ -45,8 +45,8 @@ rsconnect/
 *.pdf
 
 
-#Exclude all the data - NO data goes on Gitlab
-data/*.*
+#Exclude all the suppl files
+docs/*.*
 
 
 #log files
