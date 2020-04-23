@@ -1,23 +1,8 @@
-#===============================================================================================
-#Functions used to split the mortality distribution tables into approxiamte monthly estimates
-#Date: February 2020
-#Author: Catarina Wor
-#===============================================================================================
-
-
-
-
-
-
-
-#' readCASsplit
+#' readcasdbsplit
 #'
 #' Read in number of CWT by fishery an year based on query provided by Gayle
-#' 
 #' @param pathdb path to the cas database from which CWT recoveries are to be extracted.   
-#' 
 #' @importFrom RODBC odbcConnectAccess2007  sqlQuery
-#' 
 #' @export
 #' @examples
 #' 
@@ -51,62 +36,6 @@ readcasdbsplit <- function(pathdb){
    
 
 }
-
-
-
-
-#' readcmzsplit
-#'
-#' Read in  and clean up the CMZ file, a product of the mortality distribution tables program
-#' 
-#' @param pathcmz path to the cmzfile .   
-
-#' 
-#' @export
-#' @examples
-#' 
-readcmzsplit <- function(pathcmz){
-
-	
-    cmz <-  read.csv(pathcmz)
-    cmz <- cmz[,colSums(is.na(cmz))<nrow(cmz)]
-
-    #rowSums(cmz[,!(names(cmz) %in% c("stock","MortType","CatchYear"))],na.rm =TRUE) 
-
-
-     return(cmz)
-
- 
-}
-
-
-
-
-
-
-#' calmmoncyer
-#'
-#' Read in  and clean up the CMZ file, a product of the mortality distribution tables program
-#' 
-#' @param casdf  data frame otput from the readCASsplit function
-#' 
-#' @param cmz cmz file, output of  readcmzsplit
-#' 
-#' 
-#' @export
-#' @examples
-#' 
-calmmoncyer <- function(casdf, cmz){
-
-	#casdf<-df
-
-	
- 
-}
-
-
-
-
 
 
 
