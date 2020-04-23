@@ -1,3 +1,7 @@
+
+TEMP
+
+
 # History files
 .Rhistory
 .Rapp.history
@@ -47,7 +51,7 @@ rsconnect/
 
 #Exclude all the suppl files
 docs/*.*
-
+R/shortcuts.R
 
 #log files
 *.log

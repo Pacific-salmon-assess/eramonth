@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "catarina.wor@dfo-mpo.gc.ca",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: process teh mortality distribution table and eRA outputs for Canadian purposes
+Description: process the mortality distribution table and eRA outputs for Canadian purposes
 License: GPL (>= 2)
 LazyData: true
 Depends: R (>= 3.3.1)
