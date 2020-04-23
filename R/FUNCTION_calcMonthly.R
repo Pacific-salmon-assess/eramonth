@@ -1,4 +1,4 @@
-#' readcasdbsplit
+#' calcMonthly
 #'
 #' Calculate monthly split of annual mortality rate
 #' @param stk = text string with stock name (e.g. "ATN")
