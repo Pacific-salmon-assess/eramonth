@@ -21,7 +21,7 @@ devtools::build()
 
 #this loads all the files in R
 
-detach("package:deratools", unload=TRUE)
+detach("package:eramonth", unload=TRUE)
 system("Rcmd.exe INSTALL --preclean --no-multiarch --with-keep.source C:/Users/worc/Documents/CTC/eramonth_proj/eramonth_0.0.0.9000.tar.gz")
 #install.packages( "C:/Users/worc/Documents/CTC/ream_0.0.0.9000.tar.gz")
 
@@ -35,7 +35,7 @@ fmap<-read.csv("fisheriesmap.csv")
 pathdb <- "C:/Users/worc/Documents/CTC/ream/devs/testtxt/CASClient_2019_BE.mdb"
 casdf <- readcasdbsplit(pathdb)
 
-write.csv(casdf,"C:/Users/worc/Dropbox/MDT_gottfried/casdf.csv",row.names=FALSE)
+write.csv(casdf,"../../eramonth-implementation/data/casdf.csv",row.names=FALSE)
 
 pathcmz <- "C:/Users/worc/Documents/CTC/ERA/2019/mortality_distribution_tables/2019ERA Mortality Distrib Tables V1_5age/catchDistribution_CMZ.csv"
 cmz <- readcmzsplit(pathcmz)
