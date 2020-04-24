@@ -13,4 +13,4 @@ LazyData: true
 Depends: R (>= 3.3.1)
 Imports: RODBC
 Encoding: UTF-8
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.0
