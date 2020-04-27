@@ -91,12 +91,13 @@ if(infill == TRUE){
 for(yr in sort(unique(monthlycwt$Recovery_Year))){
 
 missing.months  <-  setdiff(1:12,monthlycwt$Recovery_Month[monthlycwt$Recovery_Year == yr])
+year.total <- unique(monthlycwt$yeartotal[monthlycwt$Recovery_Year == yr])
 
 if(length(missing.months) > 0 ){
 add.rows <- data.frame(Stock = stk, Stock_Name = stk.name, Fishery_Group = fgroup,
                        Recovery_Year = yr,Recovery_Month = missing.months ,
-                       monthtotal = 0 , yeartotal = unique(monthlycwt$yeartotal), 
-					   monprop = 0)
+                       monthtotal = 0 , yeartotal = year.total,
+					            monprop = 0)
 				   
 					   
 monthlycwt <- rbind(monthlycwt,add.rows)
