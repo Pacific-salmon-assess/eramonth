@@ -3,6 +3,7 @@
 export(calcMonthly)
 export(calmmoncyer)
 export(include.dependencies)
+export(plotMonthly)
 export(readcasdbsplit)
 export(readcmzsplit)
 import(RODBC)
