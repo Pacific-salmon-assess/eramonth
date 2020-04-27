@@ -5,29 +5,26 @@
 \title{calcMonthly}
 \usage{
 calcMonthly(
-  stk = "ATN",
   fmap = NULL,
   pathdb = NULL,
   cas = NULL,
-  pathcmz = NULL,
-  tracing = FALSE
+  tracing = FALSE,
+  infill = TRUE
 )
 }
 \arguments{
-\item{stk}{= text string with stock name (e.g. "ATN")}
-
-\item{fmap}{= data frame with fisheries mapping}
+\item{fmap}{= data frame that matches 195 CAS fishery ids (CFILENO) in col 1 to a lookup grouping in col 2. Lookup groupings are used as output labels.}
 
 \item{pathdb}{= text string with path to the CAS database (need either this or the cas input below)}
 
-\item{cas}{= data frame with CAS data, generated from databases (need either this or the pathdb input above)}
-
-\item{pathcmz}{= text string with path to CMZ file}
+\item{cas}{= data frame with CAS data, generated from database (need either this or the pathdb input above)}
 
 \item{tracing}{= if TRUE, print various summaries}
+
+\item{infill}{= if TRUE, include months with 0 recoveries}
 }
 \description{
-Calculate monthly split of annual mortality rate
+Calculate monthly distribution of tag recoveries for custom fishery groupings (loops through all stocks in the CAS input file).
 }
 \examples{
 
