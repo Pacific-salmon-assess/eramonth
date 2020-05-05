@@ -4,12 +4,12 @@
 \alias{calmmoncyer}
 \title{calmmoncyer}
 \usage{
-calmmoncyer(casdf, cmz)
+calmmoncyer(monthly.idi, cmzpath)
 }
 \arguments{
-\item{casdf}{data frame otput from the readCASsplit function}
+\item{monthly.idi}{data frame otput from the calcMonthly  function}
 
-\item{cmz}{cmz file, output of  readcmzsplit}
+\item{cmzpath}{full path to the cmz file , including file name}
 }
 \description{
 Read in  and clean up the CMZ file, a product of the mortality distribution tables program
