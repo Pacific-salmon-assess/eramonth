@@ -55,70 +55,67 @@ for(stk in stk.list){
   print(stk)
   print("#######################################")
 
-for(fgroup in fgroups.list){
+  for(fgroup in fgroups.list){
 
-print("---")
-print(fgroup)
+    print("---")
+    print(fgroup)
 
-fgroup.ids <- fmap$CFILENO[fmap[,2] == fgroup]
-#print(fgroup.ids)
+    fgroup.ids <- fmap$CFILENO[fmap[,2] == fgroup]
+    #print(fgroup.ids)
+    
+    db.sub  <- casdf %>% dplyr::filter(Stock==stk, CFileFishery_Id %in% fgroup.ids)
+    
+    stk.name <- unique(db.sub$Stock_Name)
+    #print(dim(db.sub))
 
-db.sub  <- casdf %>% dplyr::filter(Stock==stk, CFileFishery_Id %in% fgroup.ids)
-
-stk.name <- unique(db.sub$Stock_Name)
-#print(dim(db.sub))
-
-
-
-if(dim(db.sub)[1]>0){
+    if(dim(db.sub)[1]>0){
+      
+      monthlycwt <- aggregate(db.sub$Total_Expanded, 
+                              list( Stock=db.sub$Stock, Stock_Name=db.sub$Stock_Name, 
+                                    Fishery_Group = rep(fgroup,dim(db.sub)[1]), 
+                                              Recovery_Year=db.sub$Recovery_Year,  
+                                              Recovery_Month=db.sub$Recovery_Month), sum) %>%
+                              rename(monthtotal  = x)
+      yearlycwt <- aggregate(db.sub$Total_Expanded, list(Stock=db.sub$Stock,Stock_Name= db.sub$Stock_Name,  Recovery_Year=db.sub$Recovery_Year), sum)
+      
+      monthlycwt$yeartotal <- yearlycwt$x[match(monthlycwt$Recovery_Year,yearlycwt$Recovery_Year )]
+      
+      # monthly proportions
+      monthlycwt$monprop <- monthlycwt$monthtotal/monthlycwt$yeartotal 
+      
+      # fill in missing month
+      # could probably do this whole loop more elegantly with spread/gather or something.
+      if(infill == TRUE){
+        for(yr in sort(unique(monthlycwt$Recovery_Year))){
+        
+          missing.months  <-  setdiff(1:12,monthlycwt$Recovery_Month[monthlycwt$Recovery_Year == yr])
+          year.total <- unique(monthlycwt$yeartotal[monthlycwt$Recovery_Year == yr])
+          
+          if(length(missing.months) > 0 ){
+            add.rows <- data.frame(Stock = stk, Stock_Name = stk.name, Fishery_Group = fgroup,
+                                   Recovery_Year = yr,Recovery_Month = missing.months ,
+                                   monthtotal = 0 , yeartotal = year.total,
+            					            monprop = 0)
+            				   
+            					   
+            monthlycwt <- rbind(monthlycwt,add.rows)
+          } # end if missing months
   
-monthlycwt <- aggregate(db.sub$Total_Expanded, 
-                        list( Stock=db.sub$Stock, Stock_Name=db.sub$Stock_Name, 
-                              Fishery_Group = rep(fgroup,dim(db.sub)[1]), 
-                                        Recovery_Year=db.sub$Recovery_Year,  
-                                        Recovery_Month=db.sub$Recovery_Month), sum) %>%
-                        rename(monthtotal  = x)
-yearlycwt <- aggregate(db.sub$Total_Expanded, list(Stock=db.sub$Stock,Stock_Name= db.sub$Stock_Name,  Recovery_Year=db.sub$Recovery_Year), sum)
+        } # end adding missing month
+      } # end if infill = TRUE
 
-monthlycwt$yeartotal <- yearlycwt$x[match(monthlycwt$Recovery_Year,yearlycwt$Recovery_Year )]
+      monthlycwt.out <-  rbind(monthlycwt.out,monthlycwt)
 
-# monthly proportions
-monthlycwt$monprop <- monthlycwt$monthtotal/monthlycwt$yeartotal 
+      #print("a------------")
+      #print(add.rows)
+      #print("m------------")
+      #print(monthlycwt)
+      #print("o------------")
+      #print(monthlycwt.out)
 
-# fill in missing month
-# could probably do this whole loop more elegantly with spread/gather or something.
-if(infill == TRUE){
-for(yr in sort(unique(monthlycwt$Recovery_Year))){
+    } # end if dim[1] > 0
 
-missing.months  <-  setdiff(1:12,monthlycwt$Recovery_Month[monthlycwt$Recovery_Year == yr])
-year.total <- unique(monthlycwt$yeartotal[monthlycwt$Recovery_Year == yr])
-
-if(length(missing.months) > 0 ){
-add.rows <- data.frame(Stock = stk, Stock_Name = stk.name, Fishery_Group = fgroup,
-                       Recovery_Year = yr,Recovery_Month = missing.months ,
-                       monthtotal = 0 , yeartotal = year.total,
-					            monprop = 0)
-				   
-					   
-monthlycwt <- rbind(monthlycwt,add.rows)
-} # end if missing months
-
-} # end adding missing month
-} # end if infill = TRUE
-
-monthlycwt.out <-  rbind(monthlycwt.out,monthlycwt)
-
-#print("a------------")
-#print(add.rows)
-#print("m------------")
-#print(monthlycwt)
-#print("o------------")
-#print(monthlycwt.out)
-
-} # end if dim[1] > 0
-
-
-} # end looping through fisheries
+  } # end looping through fisheries
 } # end looping through stocks
 
 # drop blank row

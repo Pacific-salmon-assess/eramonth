@@ -6,11 +6,11 @@
 #' @export
 #' @examples
 #' 
-calmmoncyer <- function(monthly.idi, cmzpath){
+calcmoncyer <- function(monthly.idi, cmzpath){
 
 	#casdf<-df
 	
-    cmz <- read.csv(cmz,stringsAsFactors =FALSE)
+    cmz <- read.csv(cmzpath,stringsAsFactors =FALSE)
 
     a <- reshape(cmz, direction = "long", varying=list(4:ncol(cmz)),timevar = "fisheries", v.names = "value")
     a$fisheries_name <- colnames(cmz)[4:ncol(cmz)][a$fisheries]
